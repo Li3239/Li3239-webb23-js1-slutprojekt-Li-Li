@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/main.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Weather Forecast(Max 40 days / 120 hours)</h1>
+    </div>
+    <div class="container-input">
+        <form>
+            <div class="form-city">
+                <label for="city">CITY NAME</label>
+                <input id="city" type="text" placeholder="City">
+            </div>
+            <div class="form-day">
+                <label for="time">TIME</label>
+                <input id="time" type="number" min="1" max="120" value="120">
+            </div>
+            <div class="form-btn">
+                <button>Show Forecast</button>
+            </div>
+        </form>
+    </div>
+    
+    <div class="container-show">
+        <!-- country name, flag -->
+        <div class="country-info">
+            <p id="city-name"></p>
+            <p id="country-name"></p>
+            <img id="flag" width="50px" height="auto" src="" alt="Country flag">
+        </div>
+        <!-- current weather -->
+        <div class="current-weather">
+            <div class="weather-icon">
+                <img class="icon" width="100px" height="auto" src="" alt="Weather icon">
+            </div>
+            <div class="grade"></div>
+            <div class="grade-unit">
+                <!-- °C -->
+                <a id="cel-unit" href="" title="Celsius">°C</a>
+                <p>|</p>
+                <a id="fah-unit" href="" title="Fahrenheit">°F</a>
+            </div>
+            <div class="precipitation"></div>
+            <div class="humidity" title="Humidity"></div>
+            <div class="wind" title="Wind"></div>
+            <div class="weather"></div>
+            <div class="weekday"></div>
+            <div class="description"></div>
+        </div>
+        
+        <!-- 24h weather -->
+        <div class="daily-weather">
+            <!-- <div class="hourly-box">
+                <p>now</p>
+                <img class="icon" width="100%" height="auto" src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather icon">
+                <p>10°</p>
+            </div> -->
+        </div>
+
+        <!-- 4-day-weather forecast list -->
+        <div class="list-weather">
+            <div class="list-line-title">
+                <img width="24px" height="auto" src="./image/calendar.png" alt="Weather icon">
+                <p class="prognos-title">5-DAYSPROGNOS</p>
+            </div>
+            <!-- <div class="list-line">
+                <p class="list-element">Today</p>
+                <div class="list-element">
+                    <img class="icon" src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather icon">
+                </div>
+                <p class="list-element">10°</p>
+                <div class="canvas-div">
+                    <canvas class="canvas"></canvas>
+                </div>
+                <p class="list-element">20°</p>
+            </div> -->
+            
+        </div>
+    </div>
+</body>
+</html>

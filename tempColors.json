@@ -1,0 +1,66 @@
+[
+{   "minTemp": -100,
+    "maxTemp": -23,
+    "color": "#D00193"
+}
+,{
+    "minTemp": -22.99,
+    "maxTemp": -18,
+    "color": "#9D0693"
+}
+,{
+    "minTemp": -17.99,
+    "maxTemp": -12,
+    "color": "#74329C"
+}
+,{
+    "minTemp": -11.99,
+    "maxTemp": -7,
+    "color": "#3C39F4"
+}
+,{
+    "minTemp": -6.99,
+    "maxTemp": -1,
+    "color": "#009AF6"
+}
+,{
+    "minTemp": -0.99,
+    "maxTemp": 4,
+    "color": "#00AF5C"
+}
+,{
+    "minTemp": 4.01,
+    "maxTemp": 10,
+    "color": "#8BD063"
+}
+,{
+    "minTemp": 10.01,
+    "maxTemp": 16,
+    "color": "#FFC040"
+}
+,{
+    "minTemp": 16.01,
+    "maxTemp": 21,
+    "color": "#FB9456"
+}
+,{
+    "minTemp": 21.01,
+    "maxTemp": 27,
+    "color": "#FF0017"
+}
+,{
+    "minTemp": 27.01,
+    "maxTemp": 32,
+    "color": "#D10010"
+}
+,{
+    "minTemp": 32.01,
+    "maxTemp": 38,
+    "color": "#C5000F"
+}
+,{
+    "minTemp": 38.01,
+    "maxTemp": 100,
+    "color": "#AC010E"
+}
+]
