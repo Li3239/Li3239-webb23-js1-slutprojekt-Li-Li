@@ -68,7 +68,7 @@ function showWeather(event) {
     getCanvasJsonData();
 
     // GEO API url
-    const geoUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${inputCity.value}&limit=1&appid=${API_KEY}`;
+    const geoUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${inputCity.value}&limit=1&appid=${API_KEY}`;
 
     // fetch Geographical coordinates data
     // if success -> fetch weather data
